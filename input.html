@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta charset="windows-1252"/>
+<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="/kickstart/css/kickstart.css" media="all" /> <!-- KICKSTART -->
+<script type='text/javascript' src="/kickstart/js/kickstart.js"></script> <!-- KICKSTART -->
+	<title>ISLL Swipe Card</title>
+</head>
+<body>
+<h1>Welcome to the ISLL Learning Center</h1>
+<div>
+<p></p>
+<p></p>
+<h3>Please swipe your ID or enter you Student/Employee number below:</h3>
+<!--<form action="swipe_input.php" method="post">
+Student ID: <input type="text" name="studentid"><br>
+<input type="Submit">
+</form>-->
+<form action="input.php" method="post" autocomplete="off" >
+    UD Student/Employee number: <input type="text" name="udemplid" placeholder="Please Swipe Card" autofocus="autofocus"><br><br><br>
+<input type="Submit">
+</form>
+<!---Javascrtipt popup - use for swipe errors
+<script type='text/javascript'>
+confirm("Thank you for swiping in to the Learning Center");
+</script> -->
+</body>
+</html>
